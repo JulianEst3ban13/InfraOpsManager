@@ -1,0 +1,254 @@
+#!/usr/bin/env bash
+#
+# IEs 4 Linux
+# Developed by: Sergio Luis Lopes Junior <slopes at gmail dot com>
+# Project site: http://tatanka.com.br/ies4linux
+#
+# Released under the GNU GPL. See LICENSE for more information
+
+# Discover ies4linux installation folder
+IES4LINUX=`dirname "$0"`
+cd "$IES4LINUX"
+export IES4LINUX=`pwd`
+
+# Where are we running?
+export LINUX=0
+export DARWIN=0
+if [ $(uname) = "Darwin" ]; then
+	export DARWIN=1
+elif [ $(uname) = "Linux" ]; then
+	export LINUX=1
+fi
+
+# Import functions
+. "$IES4LINUX"/lib/functions.sh
+
+# If it's darwin, overwrite some functions
+if [ "$DARWIN" = "1" ]; then
+	. "$IES4LINUX"/mac/functions-overwrite.sh
+fi
+
+# Initialize Debug module
+[ "$DEBUG" != true ] && DEBUG=false
+debug Debug on
+
+# Initialize tmp dir
+mkdir -p "$HOME/.ies4linux/tmp" || error Needs ~/.ies4linux/tmp for temporary files
+
+# Init variables
+export INSTALLIE7=0
+export INSTALLIE6=1
+export INSTALLIE55=0
+export INSTALLIE5=0
+export INSTALLIE2=0
+export INSTALLIE15=0
+export INSTALLIE1=0
+
+export INSTALLFLASH=1
+export INSTALLCOREFONTS=0
+export CREATE_DESKTOP_ICON=1
+export CREATE_MENU_ICON=0
+
+export BASEDIR="$HOME/.ies4linux"
+export BINDIR="$HOME/bin"
+export WGETFLAGS="-c "
+export DOWNLOADDIR_SUFFIX="downloads"
+export DOWNLOADDIR="$BASEDIR/$DOWNLOADDIR_SUFFIX"
+
+export IE6_LOCALE="EN-US"
+export IE6_LOCALES="AR CN CS DA DE EL EN-US ES FI FR HE HU IT JA KO NL NO PL PT PT-BR RU SV TR TW"
+
+export NOCOLOR=0
+
+# Default locale
+export GUESSED_IE6_LOCALE=EN-US
+export MESSAGE_FILE=enUS
+
+# Script mode: gui, automatic
+export IES4LINUX_MODE="gui"
+
+# Someone can override some variables
+init_variables
+
+# Determine locale and languages
+# We have two methods: $LANG and $(locale)
+{
+	# Loads default language
+	debug Loading lang/enUS.sh
+	eval $(load_variables_file "$IES4LINUX/lang/$MESSAGE_FILE.sh")
+
+	# Look for user locale
+	if [ ${#LANG} -ge 4 ]; then
+		debug "Using LANG to determine locale - $LANG"
+		SYSLANG=$(echo ${LANG:0:2} | tr A-Z a-z)
+		SYSCOUNTRY=$(echo ${LANG:3:2} | tr A-Z a-z)
+	else
+		$(locale | sed -e 's/^/export /g;s/"//g')
+		debug "Using 'locale' to determine locale - $LC_MESSAGES"
+		SYSLANG=$(echo ${LC_MESSAGES:0:2} | tr A-Z a-z)
+		SYSCOUNTRY=$(echo ${LC_MESSAGES:3:2} | tr A-Z a-z)
+	fi
+	
+	# Search for language configuration
+	langline=$(grep -e "^${SYSLANG}[[:space:]]\+${SYSCOUNTRY}[[:space:]]\+" -e "^${SYSLANG}[[:space:]]\+\.[[:space:]]\+" "$IES4LINUX/lib/messages.txt" | head -n 1)
+
+	if [ "$langline" != "" ]; then
+
+		debug Found language line: $langline
+
+		# Configures language
+		export GUESSED_IE6_LOCALE="$(echo $langline | awk '{print $4}')"
+		export MESSAGE_FILE=$(echo $langline | awk '{print $3}')
+		export MESSAGE_FILE_FULLPATH="$IES4LINUX/lang/$MESSAGE_FILE.sh"
+
+		debug Loading lang/$MESSAGE_FILE.sh
+		load_default_language
+	
+		debug Loading $MESSAGE_FILE with iconv
+		enc=$TRANSLATION_ENCODING
+		eval $(load_variables_file "$MESSAGE_FILE_FULLPATH" | iconv -f $enc 2> /dev/null )
+	fi
+}
+
+# Check dependencies for wine, cabextract, wget, unzip ########################
+find_wine
+find_cabextract
+find_download_program
+find_unzip
+
+[ "$(whoami)" = "root" ] && warning $MSG_WARNING_ROOT
+
+# Configure options ###########################################################
+
+# Get command-line options
+while [ $# -gt 0 ]; do
+	case "$1" in
+	--install-ie6 | --install-flash)   shift;;
+	--install-ie55)     export INSTALLIE55=1;   shift ;;
+	--install-ie5)      export INSTALLIE5=1;    shift ;;
+	--install-ie2)      export INSTALLIE2=1;    shift ;;
+	--install-ie15)     export INSTALLIE15=1;    shift ;;
+	--install-ie1)      export INSTALLIE1=1;    shift ;;
+
+	--install-ie7|--beta-install-ie7) export INSTALLIE7=1;    shift ;;
+	--hack-ie7-proxy-settings)        export HACK_IE7_PROXY=1; shift ;;
+
+	--no-ie6)           export INSTALLIE6=0;   shift ;;
+	--no-flash)         export INSTALLFLASH=0;  shift ;;
+	--no-desktop-icon)  export CREATE_DESKTOP_ICON=0;   shift ;;
+	--no-menu-icon)     export CREATE_MENU_ICON=0;   shift ;;
+	--install-corefonts) export INSTALLCOREFONTS=1; shift ;;
+	
+	--basedir)          export BASEDIR="$2";     shift 2 ;;
+	--bindir)           export BINDIR="$2";      shift 2 ;;
+	--downloaddir)	    export DOWNLOADDIR="$2"; changeddownloaddir=1; shift 2 ;;
+	--wget-flags)       export WGETFLAGS="$2";   shift 2 ;;
+	
+	--no-gui)           export IES4LINUX_MODE="automatic"; shift ;;
+	--no-color)	    export NOCOLOR=1;        shift 1 ;;
+	--gui)              export PREFERRED_GUI=$2; shift 2 ;;
+	--no-localization)
+		eval $(load_variables_file "$IES4LINUX/lang/enUS.sh")
+		shift
+		;;
+	
+	--uninstall)
+		uninstall
+		exit 0
+		;;
+	--locale)
+		export CHOOSED_IE6_LOCALE=$(echo "$2" | tr a-z A-Z)
+		shift 2
+		;;
+	--list-locales)
+		echo $IE6_LOCALES | fmt -w 40
+		exit 0
+		;;
+	--debug)
+		export DEBUG=true
+		shift
+		;;
+	--help | -h)
+		sh lib/help.sh
+		exit 0
+		;;
+	--full-help)
+		sh lib/help.sh full
+		exit 0
+		;;	
+	*)
+		echo "Error: unknown option \"$1\""
+		if echo "$1" | grep '=' >/dev/null; then
+			echo "Options are not GNU-style"
+			echo "  i.e. don't use: --option=value"
+			echo "     use instead: --option value"
+		fi
+		echo "run \"./ies4linux --help\" for more info"
+		exit 1
+		;;
+	esac
+done
+	
+# Hack for downloaddir
+if [ "$changeddownloaddir" != "1" ]; then
+	DOWNLOADDIR="$BASEDIR/$DOWNLOADDIR_SUFFIX"
+fi
+
+# Determine IE6 locale
+if [ "$CHOOSED_IE6_LOCALE" != "" ]; then
+	if ! echo " $IE6_LOCALES " | grep " $CHOOSED_IE6_LOCALE " &> /dev/null; then
+		error $MSG_ERROR_INVALIDLOCALE
+	fi
+	IE6_LOCALE=$CHOOSED_IE6_LOCALE
+else
+	IE6_LOCALE=$GUESSED_IE6_LOCALE
+fi
+
+# Run installer ###############################################################
+
+# If mode=gui, let user configure some options
+if [ "$IES4LINUX_MODE" = "gui" ]; then
+
+	# Decide what UI to run
+	haspygtk=$(python -c "import pygtk; pygtk.require('2.0'); import gtk" &> /dev/null; echo $?)
+	haskmdr=$(kmdr-executor -v &> /dev/null; echo $?)
+
+	cd "$IES4LINUX"
+	
+	if [ "$PREFERRED_GUI" = "gtk" ] && [ "$haspygtk" = "0" ]; then
+		bash ui/pygtk/python-gtk.sh
+	elif [ "$PREFERRED_GUI" = "kommander" ] && [ "$haskmdr" = "0" ]; then
+		bash ui/kommander/kommander.sh
+	else
+		if [ "$haspygtk" = "0" ] && [ "$haskmdr" = "0" ]; then
+			if  [ "$KDE_FULL_SESSION" = "true" ]; then
+				bash ui/kommander/kommander.sh
+			else
+				bash ui/pygtk/python-gtk.sh
+			fi
+		elif [ "$haspygtk" = "0" ]; then
+			bash ui/pygtk/python-gtk.sh
+		elif [ "$haskmdr" = "0" ]; then
+			bash ui/kommander/kommander.sh
+		else
+			warning $MSG_ERROR_NO_GUI_AVAILABLE
+			./ies4linux --help
+		fi
+	fi
+
+# 	if [ "$?" = "1" ]; then
+# 		warning $MSG_NO_GUI_AVAILABLE
+# 		./ies4linux --help
+# 	fi
+
+elif [ "$IES4LINUX_MODE" = "automatic" ]; then
+	bash "$IES4LINUX"/lib/install.sh
+fi
+
+cd
+
+# Remove temp dir
+cd "$IES4LINUX" && rm -rf "$HOME/.ies4linux/tmp"
+
+# Remove ~/.ies4linux if its empty now
+rmdir "$HOME/.ies4linux" &> /dev/null

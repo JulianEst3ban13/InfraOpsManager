@@ -1,0 +1,16 @@
+# Habilita el motor de reescritura
+RewriteEngine On
+
+# Si el directorio o archivo existe, úsalo directamente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirige todas las demás solicitudes a index.html
+RewriteRule ^ index.html [QSA,L]
+
+# Habilita CORS para todas las solicitudes
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+</IfModule> 

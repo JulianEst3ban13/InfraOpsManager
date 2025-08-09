@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=CO, ST=CU, L=Bogota, O=NW, OU=NW, CN=changeme/name=changeme/emailAddress=mail@host.domain
+        Validity
+            Not Before: Mar  2 21:40:37 2013 GMT
+            Not After : Feb 28 21:40:37 2023 GMT
+        Subject: C=CO, ST=CU, L=Bogota, O=NW, OU=changeme, CN=client/name=changeme/emailAddress=mail@host.domain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:db:92:aa:38:0f:6e:59:db:78:e1:ea:dd:ab:16:
+                    c0:89:e4:e8:48:60:19:cc:7c:a0:1f:34:f7:ce:b9:
+                    79:c4:72:2d:24:aa:8d:82:32:43:88:e7:f4:3f:ee:
+                    ae:de:42:af:ff:90:52:29:29:db:88:81:b9:cf:60:
+                    59:bc:29:ee:71:01:6e:8b:e1:f6:a5:c5:42:0a:7e:
+                    6d:fa:b9:59:46:3e:11:bb:3b:7f:2f:68:5d:d4:3c:
+                    d8:93:c4:a7:e7:73:c6:92:75:81:85:f0:4f:fb:c4:
+                    c0:ad:57:54:fd:03:c5:28:bb:e7:64:d9:76:4d:ba:
+                    f0:d4:e6:ba:44:3a:0d:b4:b5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                CA:A5:25:60:C4:6C:0E:7D:83:00:51:E4:B1:56:A1:63:4B:C4:41:B0
+            X509v3 Authority Key Identifier: 
+                keyid:16:F5:21:DA:72:32:3E:B4:39:BC:42:D2:FF:93:38:38:C4:A1:76:64
+                DirName:/C=CO/ST=CU/L=Bogota/O=NW/OU=NW/CN=changeme/name=changeme/emailAddress=mail@host.domain
+                serial:C9:7A:F4:13:4A:2B:3D:2E
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         a2:a3:46:27:ed:cd:58:05:63:fc:6f:62:9a:78:1c:4c:d4:cd:
+         b1:63:e7:f7:7f:4a:58:2a:77:8c:9a:0f:a4:8b:62:60:a1:bc:
+         7f:aa:26:05:3e:e7:bd:17:42:b3:e5:34:c5:31:b0:70:5a:d0:
+         3d:a2:7d:05:35:a7:3c:04:ae:c5:aa:54:58:ec:31:2c:71:bf:
+         6e:a5:60:bd:7f:a8:84:88:39:43:49:38:eb:78:42:9b:3c:a2:
+         fb:8c:5c:13:12:4b:7b:54:b1:6a:46:18:cd:02:d0:7e:ab:02:
+         d3:f8:de:1c:9f:03:2e:97:4c:e2:9b:4d:32:ef:4a:57:dc:11:
+         46:93
+-----BEGIN CERTIFICATE-----
+MIID2TCCA0KgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCQ08x
+CzAJBgNVBAgTAkNVMQ8wDQYDVQQHEwZCb2dvdGExCzAJBgNVBAoTAk5XMQswCQYD
+VQQLEwJOVzERMA8GA1UEAxMIY2hhbmdlbWUxETAPBgNVBCkTCGNoYW5nZW1lMR8w
+HQYJKoZIhvcNAQkBFhBtYWlsQGhvc3QuZG9tYWluMB4XDTEzMDMwMjIxNDAzN1oX
+DTIzMDIyODIxNDAzN1owgZAxCzAJBgNVBAYTAkNPMQswCQYDVQQIEwJDVTEPMA0G
+A1UEBxMGQm9nb3RhMQswCQYDVQQKEwJOVzERMA8GA1UECxMIY2hhbmdlbWUxDzAN
+BgNVBAMTBmNsaWVudDERMA8GA1UEKRMIY2hhbmdlbWUxHzAdBgkqhkiG9w0BCQEW
+EG1haWxAaG9zdC5kb21haW4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANuS
+qjgPblnbeOHq3asWwInk6EhgGcx8oB809865ecRyLSSqjYIyQ4jn9D/urt5Cr/+Q
+Uikp24iBuc9gWbwp7nEBbovh9qXFQgp+bfq5WUY+Ebs7fy9oXdQ82JPEp+dzxpJ1
+gYXwT/vEwK1XVP0DxSi752TZdk268NTmukQ6DbS1AgMBAAGjggFDMIIBPzAJBgNV
+HRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlm
+aWNhdGUwHQYDVR0OBBYEFMqlJWDEbA59gwBR5LFWoWNLxEGwMIHBBgNVHSMEgbkw
+gbaAFBb1IdpyMj60ObxC0v+TODjEoXZkoYGSpIGPMIGMMQswCQYDVQQGEwJDTzEL
+MAkGA1UECBMCQ1UxDzANBgNVBAcTBkJvZ290YTELMAkGA1UEChMCTlcxCzAJBgNV
+BAsTAk5XMREwDwYDVQQDEwhjaGFuZ2VtZTERMA8GA1UEKRMIY2hhbmdlbWUxHzAd
+BgkqhkiG9w0BCQEWEG1haWxAaG9zdC5kb21haW6CCQDJevQTSis9LjATBgNVHSUE
+DDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAoqNG
+J+3NWAVj/G9imngcTNTNsWPn939KWCp3jJoPpItiYKG8f6omBT7nvRdCs+U0xTGw
+cFrQPaJ9BTWnPASuxapUWOwxLHG/bqVgvX+ohIg5Q0k463hCmzyi+4xcExJLe1Sx
+akYYzQLQfqsC0/jeHJ8DLpdM4ptNMu9KV9wRRpM=
+-----END CERTIFICATE-----

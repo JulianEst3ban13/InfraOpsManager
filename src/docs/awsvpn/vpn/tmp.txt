@@ -1,0 +1,829 @@
+                           ?column?                           
+--------------------------------------------------------------
+ 05002000,Abejorral
+ 54003000,Abrego
+ 50006000,Acacias
+ 41006000,Acevedo
+ 41013000,Agrado (Huila)
+ 20011000,Aguachica
+ 17013000,Aguadas
+ 25001000,Agua de Dios
+ 20001001,Aguas Blancas
+ 85010000,Aguazul
+ 41016000,Aipe
+ 44430001,Albania (Gjira.)
+ 25019000,Alban
+ 76020000,Alcala
+ 52022000,Aldana (Nariño)
+ 05021000,Alejandria
+ 47030000,Algarrobo
+ 41020000,Algeciras (Huila)
+ 41026000,Altamira (Huila)
+ 52079001,Altaquer
+ 73026000,Alvarado
+ 05030000,Amaga
+ 76520002,Amaime
+ 05031000,Amalfi
+ 73030000,Ambalema
+ 25035000,Anapoima
+ 27361001,Andagoya
+ 76036000,Andalucia
+ 05034000,Andes
+ 25040000,Anolaima
+ 05040000,Anori
+ 17042000,Anserma
+ 76041000,Ansermanuevo
+ 05045000,Apartado
+ 66045000,Apia
+ 50001002,Apiay (Meta)
+ 25599000,Apulo (Cdmca.)
+ 15047000,Aquitania
+ 47053000,Aracataca
+ 85001008,Araguaney (Casanara)
+ 17050000,Aranzazu
+ 17524001,Arauca (Alto de Arauca)
+ 81001000,Arauca
+ 81065000,Arauquita
+ 25053000,Arbelaez
+ 17541001,Arboleda
+ 05051000,Arboletes
+ 15051000,Arcabuco (Boyaca)
+ 76054000,Argelia
+ 41378000,Argentina Huila
+ 13052000,Arjona
+ 17013001,Arma
+ 63001000,Armenia
+ 73055000,Armero-Guayabal
+ 20032000,Astrea (Cesar)
+ 73067000,Ataco (Tolima)
+ 23068000,Ayapel
+ 08078000,Baranoa
+ 41078000,Baraya
+ 05079000,Barbosa
+ 68077000,Barbosa (Stder)
+ 63130001,Barcelona (Quindio)
+ 68079000,Barichara
+ 50110000,Barranca de Upia
+ 44078000,Barrancas
+ 13001004,Bayunca (Bolivar)
+ 68081000,Barrancabermeja
+ 20045000,Becerril
+ 15491001,Belencito
+ 05088000,Bello
+ 05086000,Belmira
+ 15087000,Belen
+ 66088000,Belen de Umbria
+ 25086000,Beltran (Cundinamarca.)
+ 15090000,Berbeo (Boyaca)
+ 05091000,Betania
+ 15092000,Beteitiva (Boyaca)
+ 05093000,Betulia
+ 68001000,Bucaramanga
+ 11001000,Bogota
+ 25099000,Bojaca
+ 76100000,Bolivar
+ 05861002,Bolombolo
+ 17541002,Bolivia
+ 17614001,Bonafont
+ 11092000,Bosa
+ 20060000,Bosconia
+ 08001000,Barranquilla
+ 25758006,Briceño
+ 41551001,Brusela
+ 13042001,Buenavista 2 (Bol.)
+ 23079000,Buena Vista
+ 52110000,Buesaco
+ 76111000,Buga
+ 76113000,Bugalagrande
+ 15114000,Busbanza (Boyaca)
+ 76109000,Buenaventura
+ 05138000,Cañasgordas
+ 25120000,Cabrera (Cundinamarca.)
+ 25123000,Cachipay
+ 76122000,Caicedonia
+ 73124000,Cajamarca
+ 52835157,Cajapia
+ 25126000,Cajica
+ 13140000,Calamar
+ 63130000,Calarca
+ 05129000,Caldas
+ 76001000,Cali
+ 19142000,Caloto
+ 08078001,Campeche
+ 41132000,Campoalegre
+ 08137000,Campo de la Cruz
+ 76130000,Candelaria
+ 08141000,Candelaria (Atlantico)
+ 25148000,Caparrapi
+ 25126001,Capellania (Cundinamarca.)
+ 20238002,Caracolicito
+ 05145000,Caramanta
+ 05147000,Carepa
+ 73148000,Carmen de Apicala
+ 25154000,Carmen de Carupa (Cundinamarca.)
+ 13001000,Cartagena
+ 76147000,Cartago (Valle)
+ 73152000,Casabianca
+ 17513001,Castilla
+ 50150000,Castilla la Nueva
+ 05154000,Caucasia
+ 05120000,Caceres
+ 23162000,Cerete
+ 15162000,Cerinza (Boy.)
+ 66001079,Cerritos (Risaralda)
+ 27787003,Certegui
+ 52240000,Chachagui (Narino)
+ 73168000,Chaparral
+ 68167000,Charala
+ 25175000,Chia
+ 73268001,Chicoral
+ 05172000,Chigorodo
+ 23168000,Chima
+ 20175000,Chimichagua (Cesar)
+ 23182000,Chinu
+ 54172000,Chinacota
+ 15172000,Chinavita (Boyaca)
+ 17174000,Chinchina
+ 25178000,Chipaque (Cundinamarca)
+ 15176000,Chiquinquira
+ 15232000,Chiquiza (Boy.)
+ 20178000,Chiriguana
+ 15185000,Chitaraque
+ 15187000,Chivata (Boyaca)
+ 15236000,Chivor (Boy.)
+ 25181000,Choachi
+ 25183000,Choconta
+ 52435002,Chucunes (Nariño)
+ 25743006,Chusaca
+ 23189000,Cienaga de Oro
+ 47189000,Cienaga (Magd)
+ 68190000,Cimitarra
+ 63190000,Circasia
+ 05190000,Cisneros (Ant)
+ 76109008,Cisneros (Valle)
+ 05101000,Bolivar (Ciudad Bolivar)
+ 05197000,Cocorna (Antioquia)
+ 20013000,Codazzi
+ 25200000,Cogua (Cundinamarca.)
+ 86219000,Colon
+ 41206000,Colombia
+ 23660004,Colomboy
+ 15204000,Combita (Boyaca)
+ 05206000,Concepcion
+ 05209000,Concordia
+ 27205000,Condoto
+ 52207000,Consaca (Nariño)
+ 68211000,Contratacion
+ 54206000,Convencion
+ 05212000,Copacabana
+ 19212000,Corinto
+ 70215000,Corozal
+ 15215000,Corrales (Boyaca)
+ 25214000,Cota
+ 70820001,Coveñas
+ 25151000,Caqueza
+ 63212000,Cordoba
+ 15223000,Cubara (Boy.)
+ 15224000,Cucaita (Boy.)
+ 54001000,Cucuta
+ 50226000,Cumaral
+ 52227000,Cumbal
+ 73226000,Cunday (Tolima)
+ 68229000,Curiti
+ 05837001,Currulao
+ 20228000,Curumani
+ 85010010,Cusiana (Casanare)
+ 05234000,Dabeiba
+ 76233000,Dagua
+ 76126000,Darien
+ 44098000,Distraccion
+ 05237000,Don Matias
+ 05591004,Doradal
+ 66170000,Dosquebradas
+ 15238000,Duitama
+ 76243000,El Aguila (Valle del Cauca)
+ 05250000,El Bagre (Ant.)
+ 47245000,El Banco
+ 19532000,El Bordo
+ 76246000,El Cairo
+ 76130004,El Carmelo
+ 27245000,El Carmen de Atrato
+ 13244000,El Carmen de Bolivar
+ 05148000,El Carmen de Viboral
+ 50251000,El Castillo
+ 68081001,El Centro
+ 76248000,El Cerrito
+ 25245000,Mesitas del Colegio (Cdmca.)
+ 20238000,El Copey
+ 47058000,El Dificil
+ 19050005,El Diviso (Cauca)
+ 05790002,El Doce
+ 18247000,El Doncello
+ 50270000,El Dorado
+ 76250000,El Dovio
+ 52585003,El Espino (Nariño)
+ 19532013,El Estrecho
+ 05120002,Jardin - Caseres
+ 44110000,El Molino
+ 19532008,El Patia
+ 18256000,El Paujil
+ 05541001,El Peñol
+ 25258000,El Peñon  (Cundinamarca.)
+ 76111002,El Placer (Valle del Cauca)
+ 68255000,El Playon
+ 47053004,El Reten
+ 05607000,El Retiro
+ 95025000,Retorno
+ 25260000,El Rosal
+ 05697000,Santuario
+ 25183001,El Sisga (Cundinamarca.)
+ 52260000,El Tambo (Nariño)
+ 05031009,El Tigre
+ 05837003,El Tres
+ 25245001,El Triunfo (Cundinamarca.)
+ 23079012,El Viajano
+ 05264000,Entrerrios
+ 05266000,Envigado
+ 73268000,Espinal
+ 52835017,Espriella
+ 25269000,Facatativa
+ 73270000,Falan
+ 17272000,Filadelfia
+ 63272000,Filandia
+ 73275000,Flandes
+ 17614004,Florencia (Cdas)
+ 18001000,Florencia (Cqta)
+ 15276000,Floresta (Boyaca)
+ 76275000,Florida
+ 68276000,Floridablanca
+ 25279000,Fomeque (Cundinamarca.)
+ 44279000,Fonseca
+ 11030000,Fontibon
+ 81300000,Fortul
+ 25281000,Fosca (Cundinamarca.)
+ 05282000,Fredonia
+ 73283000,Fresno
+ 05284000,Frontino
+ 50287000,Fuente de Oro
+ 47288000,Fundacion
+ 25286000,Funza
+ 25290000,Fusagasuga
+ 25293000,Gachala (Cundinamarca.)
+ 25295000,Gachancipa
+ 15293000,Gachantiva (Boyaca)
+ 25297000,Gacheta (Cundinamarca.)
+ 47001005,Gaira
+ 08296000,Galapa
+ 70235000,Galeras
+ 19532004,Galindez
+ 25299000,Gama (Cundinamarca.)
+ 20295000,Gamarra
+ 15296000,Gameza (Boyaca)
+ 15299000,Garagoa
+ 41298000,Garzon
+ 41306000,Gigante
+ 76306000,Ginebra
+ 05306000,Giraldo 2 (Ant.)
+ 25307000,Girardot
+ 05308000,Girardota
+ 68307000,Giron
+ 63302000,Genova
+ 25312000,Granada (Cund)
+ 50313000,Granada (Meta)
+ 47460000,Granada (Mag)
+ 68318000,Guaca
+ 47980001,Guacamayal
+ 15317000,Guacamayas (Boyaca)
+ 76318000,Guacari
+ 47001006,Guachaca (Magdalena)
+ 25317000,Guacheta (Cundinamarca)
+ 52317000,Guachucal
+ 41319000,Guadalupe
+ 25320000,Guaduas
+ 52203001,Guaitarilla (Nariño)
+ 73200001,Gualanday (Tolima)
+ 50318000,Guamal
+ 47318000,Guamal (Magdalena)
+ 73319000,Guamo
+ 05318000,Guarne
+ 25322000,Guasca
+ 05321000,Guatape
+ 25326000,Guatavita
+ 15322000,Guateque
+ 25328000,Guayabal de Siquima (Cundinamarca.)
+ 25335000,Guayabetal (Cundinamarca.)
+ 15325000,Guayata (Boyaca)
+ 68327000,Guepsa
+ 66318000,Guatica
+ 25339000,Gutierrez (Cundinamarca)
+ 85125000,Hato Corozal
+ 44078002,Hato Nuevo
+ 73347000,Herbeo
+ 05353000,Hispania
+ 41349000,Hobo
+ 73349000,Honda
+ 73001000,Ibague
+ 73352000,Icononzo
+ 52835163,Imbili (Nari¤o)
+ 52356000,Ipiales
+ 41357000,Iquira (Huila)
+ 66594002,Irra
+ 05360000,Itagui
+ 27361000,Istmina (Choco)
+ 05361000,Ituango (Antioquia)
+ 76364000,Jamundi
+ 05364000,Jardin - Suroeste
+ 15367000,Jenesano (Boy.)
+ 05368000,Jerico
+ 13430013,Juanarias
+ 08372000,Juan de Acosta (Atlantico)
+ 08001001,Juan Mina (Atlantico)
+ 25372000,Junin (Cundinamarca.)
+ 23350000,La Apartada (Cdba.)
+ 25377000,La Calera
+ 15380000,La Capilla (Boyaca)
+ 05376000,La Ceja
+ 66383000,La Celia (Rsda.)
+ 85001002,La Chaparrera
+ 52378000,La Cruz
+ 05604001,La Cruzada
+ 86568013,La Dorada(Nariño)
+ 17380000,La Dorada(Caldas)
+ 17001006,La Enea (Cds.)
+ 81065008,La Esmeralda
+ 05380000,La Estrella (Antioquia)
+ 52381000,La Florida (Nari¤o)
+ 20383000,La Gloria
+ 47189011,La Gran Via (Magdalena)
+ 52835030,La Guayacana (Nari÷Ð)
+ 86865000,La Hormiga
+ 20400000,La Jagua de Ibirico
+ 17388000,La Merced
+ 25386000,La Mesa
+ 68385000,Landazuri (Santander)
+ 76895002,La Paila
+ 25394000,La Palma
+ 20621000,La Paz
+ 25398000,La Peña (Cundinamarca.)
+ 81065022,La Pesquera
+ 05390000,La Pintada
+ 41396000,La Plata
+ 05209005,Animas
+ 63401000,La Tebaida
+ 05400000,La Union (Ant)
+ 76400000,La union (valle)
+ 52399000,La Union (Nar)
+ 76113013,La Uribe
+ 15403000,La Uvita (Boy.)
+ 25402000,La Vega
+ 76403000,La Victoria
+ 66400000,La Virginia
+ 23660008,La Ye
+ 73411000,Libano
+ 68406000,Lebrija
+ 52405000,Leiva (Nariño)
+ 25407000,Lenguazaque (Cundinamarca.)
+ 91001000,Leticia (Amazonas)
+ 52411000,Linares (Nariño)
+ 05887007,Llanos de Cuiba (Ant.)
+ 52215002,Llorente
+ 76233017,Lobo Guerrero (Vlle_Cca)
+ 70678019,Loma Seca (Sucre)
+ 23417000,Lorica
+ 23555013,Los Cerros (Cdba.)
+ 70418000,Los Palmitos
+ 73408000,Lerida
+ 08421000,Luruaco
+ 15425000,Macanal (Boyaca)
+ 25426000,Macheta
+ 25430000,Madrid
+ 13430000,Magangue
+ 44430000,Maicao
+ 08433000,Malambo
+ 08436000,Manati (Atlantico)
+ 85139000,Mani
+ 17433000,Manzanares
+ 20001013,Mariangola
+ 05440000,Marinilla
+ 73443000,Mariquita
+ 17442000,Marmato
+ 17444000,Marquetalia
+ 66440000,Marsella
+ 17446000,Marulanda
+ 05001000,Medellin
+ 50251001,Medellin del Ariari
+ 25438000,Medina
+ 73449000,Melgar
+ 19450000,Mercaderes
+ 44090003,Mingueo (Gjira.)
+ 15455000,Miraflores (Boyaca)
+ 19455000,Miranda
+ 66456000,Mistrato
+ 68432000,Malaga
+ 86001000,Mocoa
+ 19450019,Mojarras
+ 23464000,Momil
+ 13468000,Mompos (Bolivar)
+ 19698007,Mondomo
+ 15464000,Mongua (Boyaca)
+ 15466000,Mongui (Boyaca)
+ 15469000,Moniquira
+ 17446001,Montebonito
+ 23466000,Montelibano
+ 63470000,Montenegro
+ 23001000,Monteria
+ 85162000,Monterrey
+ 25473000,Mosquera
+ 13442000,Maria La Baja (Bolivar)
+ 05480000,Mutata
+ 15480000,Muzo (Boyaca)
+ 17001000,Manizales
+ 52001006,Nariño (Nariño)
+ 73483000,Natagaima
+ 05490000,Necocli
+ 17486000,Neira
+ 41001000,Neiva
+ 25486000,Nemocon
+ 25488000,Nilo
+ 15491000,Nobsa
+ 25491000,Nocaima (Cundinamarca.)
+ 17495000,Norcasia
+ 15494000,Nuevo Colon (Boyaca)
+ 05837002,Nueva Colonia
+ 76497000,Obando
+ 54498000,Ocaña
+ 68500000,Oiba
+ 15500000,Oicata (Boyaca)
+ 68770001,Olival
+ 41503000,Oporapa
+ 47189002,Orihueca (Magdalena)
+ 86320000,Orito
+ 73504000,Ortega
+ 15507000,Otanche (Boyaca)
+ 25513000,Pacho
+ 73347005,Padua
+ 15514000,Paez (Boyaca)
+ 41518000,Paicol
+ 20517000,Pailitas
+ 15516000,Paipa
+ 15518000,Pajarito (Boy.)
+ 41524000,Palermo
+ 47745003,Palermo
+ 41530000,Palestina (Huila)
+ 17524000,Palestina (Cds)
+ 08520000,Palmar de Varela (Atlantico)
+ 76520000,Palmira
+ 05001001,Palmitas (Ant.)
+ 73520000,Palocabildo
+ 44001013,Palomino
+ 54518000,Pamplona
+ 25524000,Pandi (Cundinamarca.)
+ 25530000,Paratebueno
+ 25535000,Pasca
+ 52001000,Pasto
+ 85250000,Paz de Ariporo
+ 15537000,Paz de Rio (Boyaca)
+ 17513000,Pacora
+ 20550000,Pelaya
+ 17541000,Pensilvania
+ 66001000,Pereira
+ 15542000,Pesca (Boyaca)
+ 19137004,Pescador
+ 50711002,Piñalito (Meta)
+ 68547000,Piedecuesta
+ 52435000,Piedrahancha
+ 19532009,Piedrasentada
+ 19548000,Piendamo
+ 63548000,Pijao
+ 15550000,Pisba (Boyaca)
+ 41548000,Pital (Huila)
+ 41551000,Pitalito
+ 47551000,Pivijai
+ 73555000,Planadas
+ 23555000,Planeta rica
+ 47555000,Plato
+ 23555007,Plaza Bonita (Cordoba)
+ 08558000,Polonuevo
+ 08560000,Ponedera
+ 19001000,Popayan
+ 85263000,Pore
+ 76563000,Pradera
+ 05001002,San Antonio de Prado
+ 73563000,Prado (Tolima)
+ 76100009,Primavera
+ 68572003,Providencia
+ 86568000,Puerto Asis
+ 50568000,Puerto Gaitan (Meta)
+ 50577000,Puerto Lleras (Meta)
+ 50573000,Puerto López (Meta)
+ 81736008,Puerto Nariño (Arauca)
+ 23570000,Pueblo Nuevo
+ 47170002,Pueblonuevo (Mglna.)
+ 05576000,Pueblo Rico
+ 68572000,Puente Nacional
+ 25594002,Puente Quetame (Cundinamarca.)
+ 76126013,Puente Tierra (Valle del Cauca)
+ 68190002,Puerto Araujo (Stder.)
+ 05120006,Puerto Belgica
+ 05579000,Puerto Berrio (Antioquia)
+ 25320003,Puerto Bogota (Cundinamarca.)
+ 15572000,Puerto Boyaca
+ 86569000,Puerto Caicedo (Putumayo)
+ 08573000,Puerto Colombia
+ 23580000,Puerto Libertador
+ 18592000,Puerto Rico
+ 25572000,Puerto Salgar
+ 54001010,Puerto Santander (N. Santander)
+ 19573000,Puerto Tejada
+ 05854002,Puerto Valdivia
+ 52585000,Pupiales (Nariño)
+ 73585000,Purificacion (Tolima)
+ 23586000,Purisima
+ 25594000,Quetame (Cundinamarca)
+ 27001000,Quibdo
+ 63594000,Quimbaya
+ 66594000,Quinchia
+ 15580000,Quipama (Boyaca)
+ 25596000,Quipile (Cundinamarca.)
+ 15599000,Ramiriqui (Boy.)
+ 15600000,Raquira (Boy.)
+ 05604000,Remedios
+ 76275010,Remolino (Vlle_Cca)
+ 08606000,Repelon (Atlantico)
+ 50606000,Restrepo (Meta)
+ 52612000,Ricaurte
+ 25612000,Ricaurte
+ 20178008,Rincon Hondo
+ 20614000,Rio de Oro
+ 76616000,Rio Frio
+ 47189003,Riofrio (Mglna.)
+ 44001000,Riohacha
+ 05615000,Rionegro (Ant)
+ 17614000,Riosucio (cds)
+ 17616000,Risaralda
+ 41615000,Rivera (Huila)
+ 76622000,Roldanillo
+ 15621000,Rondon (Boyaca)
+ 19622000,Rosas
+ 76520026,Rozo
+ 76606000,Restrepo (Valle)
+ 68655000,Sabana de Torres
+ 08634000,Sabanagrande
+ 08638000,Sabanalarga
+ 85300000,Sabanalarga
+ 05631000,Sabaneta
+ 15632000,Saboya
+ 15638000,Sachica (Boyaca)
+ 23660000,Sahagun
+ 41660000,Salado Blanco
+ 17653000,Salamina
+ 47675000,Salamina (Magdalena)
+ 73671000,Saldaña
+ 63690000,Salento
+ 05642000,Salgar
+ 76616009,Salonica
+ 15646000,Samaca
+ 17662000,Samana (Cdas.)
+ 52678000,Samaniego (Nariño)
+ 17272005,Samaria
+ 70670000,Sampues
+ 41006001,San Adolfo (Huila)
+ 41668000,San Agustin (Huila)
+ 20710000,San Alberto
+ 88001000,San Andres (S Andres)
+ 68669000,San Andres
+ 23670000,San Andres de Sotavento
+ 23672000,San Antero
+ 25599001,San Antonio (Cundinamarca.)
+ 17513003,San Bartolome
+ 25649000,San Bernardo
+ 23675000,San Bernardo del Viento (Cordoba.)
+ 05649000,San Carlos (Antioquia)
+ 66318002,San Clemente
+ 17541011,San Daniel
+ 17653021,San Diego (Caldas.)
+ 20750000,San Diego
+ 52683000,Sandona
+ 15660000,San Eduardo (Boyaca)
+ 25658000,San Francisco (Cund)
+ 86749003,San Francisco (Put)
+ 73055004,San Felipe
+ 17653007,San Felix (Caldas.)
+ 68679000,San Gil
+ 13654000,San Jacinto
+ 05656000,San Jeronimo
+ 41359000,San Jose de Isnos (Huila)
+ 05425005,San Jose del Nus -San Jose de Nuestra Se¢®ra (Ant.)
+ 50683000,San Juan de Arama
+ 25662000,San Juan de Rio Seco (Cdmca.)
+ 05659000,San Juan de Uraba (Antioquia)
+ 44650000,San Juan del Cesar
+ 13657000,San Juan de Nepomuceno
+ 05660000,San Luis (Antioquia)
+ 85325000,San Luis de Palenque (Casanare)
+ 15667000,San Luis de Gaceno
+ 70708000,San Marcos
+ 20001039,San Martin (Cesar)
+ 50689000,San Martin (Meta)
+ 15673000,San Mateo (Boyaca)
+ 86568016,San Miguel (Ptmayo.)
+ 70713000,San Onofre
+ 15681000,San Pablo de Borbur (Boyaca)
+ 52693000,San Pablo
+ 05665000,San Pedro de Uraba
+ 70717000,San Pedro (Suc)
+ 76400007,San Pedro (Valle)
+ 23686000,San Pelayo
+ 05667000,San Rafael
+ 47692000,San Sebastian de Buenavista (Mglna.)
+ 47053008,Santa Ana (Magdalena)
+ 05034005,Santa Barbara
+ 13673000,Santa Catalina (Bolivar)
+ 76248009,Santa Elena (Valle del Cauca )
+ 05042000,Santafe de Antioquia
+ 05604003,Santa Isabel
+ 08675000,Santa Lucia (Atlantico)
+ 15690000,Santa Maria (Boy)
+ 15686000,Santana
+ 19698000,Santander de Quilichao
+ 25645001,Santandercito (Cdmca.)
+ 15696000,Santa Sofia (Boyaca)
+ 08372004,Santa Veronica
+ 86749006,Santiago
+ 05690004,Santiago (Antioquia)
+ 08685000,Santo Tomas
+ 66687000,Santuario
+ 68689000,San Vicente de Chucuri
+ 05674000,San Vicente
+ 81736000,Saravena
+ 54720000,Sardinata (N. Santander)
+ 25718000,Sasaima
+ 15720000,Sativa norte (Boy.)
+ 15723000,Sativa sur (Boy.)
+ 05736000,Segovia
+ 25736000,Sesquile
+ 47980008,Sevilla (Mag)
+ 76736000,Sevilla (Valle)
+ 15740000,Siachoque (Boyaca)
+ 25740000,Sibate
+ 86749000,Sibundoy
+ 25743000,Silvania
+ 25745000,Simijaca
+ 70742000,Since
+ 70001000,Sincelejo
+ 05664000,San Pedro de los Milagos
+ 18753000,San Vicente del Caguan (Caqueta)
+ 25754000,Soacha
+ 15753000,Soata
+ 68755000,Socorro
+ 15759000,Sogamoso
+ 08758000,Soledad
+ 18785000,Solita
+ 15761000,Somondoco (Boyaca)
+ 05756000,Sonson
+ 76318008,Sonso
+ 05761000,Sopetran (Ant.)
+ 25758000,Sopo
+ 15762000,Sora (Boyaca)
+ 15764000,Soraca (Boyaca)
+ 15763000,Sotaquira (Boyaca)
+ 52418000,Sotomayor (Nariño)
+ 41676000,Santa Maria (Huila)
+ 47001000,Santa Marta
+ 66682000,Santa Rosa de Cabal
+ 05686000,Santa Rosa de Osos
+ 15693000,Santa Rosa de Viterbo
+ 68770000,Suaita
+ 08770000,Suan
+ 41770000,Suaza
+ 11040000,Suba
+ 25769000,Subachoque
+ 25743005,Subia (Cundinamarca.)
+ 25772000,Suesca
+ 17777000,Supia
+ 25779000,Susa
+ 15774000,Susacon (Boyaca)
+ 15776000,Sutamarchan (Boyaca)
+ 25781000,Sutatausa (Cundinamarca.)
+ 15778000,Sutatenza (Boyaca)
+ 25785000,Tabio
+ 27787000,Tado
+ 47001010,Taganga
+ 20787000,Tamalameque (Cesar)
+ 85400000,Tamara (Casanare)
+ 81794000,Tame
+ 05789000,Tamesis
+ 05790000,Taraza
+ 41791000,Tarqui
+ 05792000,Tarso
+ 47570004,Tasajera
+ 15790000,Tasco (Boyaca)
+ 85410000,Tauramena
+ 25793000,Tausa (Cundinamarca.)
+ 41799000,Tello
+ 25797000,Tena (Cundinamarca.)
+ 25799000,Tenjo
+ 15798000,Tenza (Boyaca)
+ 41801000,Teruel (Huila)
+ 41797000,Tesalia
+ 25805000,Tibacuy (Cundinamarca.)
+ 15804000,Tibana (Boyaca)
+ 15806000,Tibasosa
+ 25807000,Tibirita
+ 54810000,Tibu (N_Stder)
+ 23417010,Tierra Alta
+ 41807000,Timana
+ 19807000,Timbio
+ 15808000,Tinjaca (Boyaca)
+ 15810000,Tipacoque (Boyaca)
+ 05809000,Titiribi
+ 15814000,Toca (Boyaca)
+ 25815000,Tocaima
+ 25817000,Tocancipa
+ 15816000,Togui (Boyaca)
+ 70820000,Tolu (Sucre)
+ 70823000,Tolu Viejo
+ 15820000,Topaga (Boyaca)
+ 76823000,Toro
+ 15822000,Tota (Boyaca)
+ 85430000,Trinidad (Casanare)
+ 76828000,Trujillo
+ 08832000,Tubara (Atlantico)
+ 23670011,Tuchin
+ 47189007,Tucurinca (Magdalenana)
+ 76834000,Tulua
+ 52835000,Tumaco
+ 19548001,Tunia
+ 15001000,Tunja
+ 52838000,Tuquerres
+ 13836000,Turbaco
+ 05837000,Turbo
+ 15835000,Turmeque (Boyaca)
+ 15837000,Tuta (Boyaca)
+ 15839000,Tutaza (Boyaca)
+ 27001032,Tutunendo
+ 25839000,Ubala (Cundinamarca.)
+ 25841000,Ubaque (Cundinamarca.)
+ 25843000,Ubate
+ 15842000,Umbita (Boyaca)
+ 25845000,Une (Cundinamarca.)
+ 05842000,Uramita
+ 05847000,Urrao
+ 44855000,Urumita
+ 25851000,Utica (Cundinamarca.)
+ 68770003,Vado Real
+ 05854000,Valdivia
+ 23855000,Valencia
+ 20001000,Valledupar
+ 05856000,Valparaiso
+ 05858000,Vegachi
+ 41001012,Vegalarga (Huila)
+ 68861000,Velez
+ 73861000,Venadillo
+ 05861000,Venecia
+ 25518004,Venecia (Cdmca.)
+ 15861000,Ventaquemada
+ 25862000,Vergara (Cundinamarca.)
+ 05138006,Versalles
+ 25867000,Viani (Cundinamarca.)
+ 17867000,Victoria
+ 76869000,Vijes
+ 85162006,Villacarola
+ 15407000,Villadeleyva
+ 86885000,Villagarzon
+ 25871000,Villagomez (Cundinamarca.)
+ 76130008,Villagorgona
+ 85440000,Villanueva (Cas)
+ 44874000,Villanueva (Guaj)
+ 25873000,Villa Pinzon
+ 19845000,Villarrica
+ 73873000,Villarrica (Tolima)
+ 41872000,Villavieja (Huila)
+ 25875000,Villeta
+ 25878000,Viota
+ 15879000,Viracacha (Boyaca)
+ 50711000,Vista hermosa (Meta)
+ 17877000,Viterbo
+ 50001000,Villavicencio
+ 25885000,Yacopi
+ 41885000,Yaguara (Huila)
+ 05885000,Yali
+ 05887000,Yarumal
+ 05890000,Yolombo
+ 85001000,Yopal
+ 76890000,Yotoco
+ 76892000,Yumbo
+ 27050000,Yuto
+ 13894000,Zambrano
+ 68895000,Zapatoca
+ 76147010,Zaragoza
+ 05895000,Zaragoza (Ant)
+ 76895000,Zarzal
+ 15897000,Zetaquira (Boyaca)
+ 25898000,Zipacon (Cundinamarca.)
+ 25899000,Zipaquira
+ 05045003,Zungo Carretera (Ant.)
+ 25436000,Manta
+ 70508000,Ovejas
+(825 filas)
+

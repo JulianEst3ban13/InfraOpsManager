@@ -1,0 +1,105 @@
+<VirtualHost *:80>
+    ServerName mantenimiento.loc
+    ServerAlias www.mantenimiento.loc 192.168.1.22
+    
+    # Logs
+    ErrorLog ${APACHE_LOG_DIR}/mantenimiento-error.log
+    CustomLog ${APACHE_LOG_DIR}/mantenimiento-access.log combined
+    
+    # Configuración de CORS
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+    
+    # Directorio raíz
+    DocumentRoot /var/www/mantenimiento/dist
+    
+    # Configuración del proxy para la API en el puerto 3001
+    ProxyRequests Off
+    ProxyPreserveHost On
+    
+    # Redirigir solicitudes API al backend
+    <Location /api>
+        ProxyPass http://192.168.1.22:3001/api
+        ProxyPassReverse http://192.168.1.22:3001/api
+    </Location>
+    
+    # Configuración para Socket.IO (importante para WebSockets)
+    <Location /socket.io>
+        ProxyPass http://192.168.1.22:3001/socket.io
+        ProxyPassReverse http://192.168.1.22:3001/socket.io
+        
+        # Soporte para WebSockets
+        RewriteEngine On
+        RewriteCond %{HTTP:Upgrade} =websocket [NC]
+        RewriteRule /(.*)  ws://192.168.1.22:3001/$1 [P,L]
+    </Location>
+    
+    # Configuración para servir la aplicación SPA
+    <Directory /var/www/mantenimiento/dist>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+        
+        # Redirigir todas las solicitudes no encontradas al index.html para SPA routing
+        RewriteEngine On
+        RewriteBase /
+        RewriteRule ^index\.html$ - [L]
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule . /index.html [L]
+    </Directory>
+</VirtualHost>
+
+# Configuración para la IP específica en el puerto 8082
+<VirtualHost *:8082>
+    ServerName 192.168.1.22
+    
+    # Logs
+    ErrorLog ${APACHE_LOG_DIR}/mantenimiento-ip-error.log
+    CustomLog ${APACHE_LOG_DIR}/mantenimiento-ip-access.log combined
+    
+    # Configuración de CORS
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+    
+    # Directorio raíz
+    DocumentRoot /var/www/mantenimiento/dist
+    
+    # Configuración del proxy para la API en el puerto 3001
+    ProxyRequests Off
+    ProxyPreserveHost On
+    
+    # Redirigir solicitudes API al backend
+    <Location /api>
+        ProxyPass http://192.168.1.22:3001/api
+        ProxyPassReverse http://192.168.1.22:3001/api
+    </Location>
+    
+    # Configuración para Socket.IO (importante para WebSockets)
+    <Location /socket.io>
+        ProxyPass http://192.168.1.22:3001/socket.io
+        ProxyPassReverse http://192.168.1.22:3001/socket.io
+        
+        # Soporte para WebSockets
+        RewriteEngine On
+        RewriteCond %{HTTP:Upgrade} =websocket [NC]
+        RewriteRule /(.*)  ws://192.168.1.22:3001/$1 [P,L]
+    </Location>
+    
+    # Configuración para servir la aplicación SPA
+    <Directory /var/www/mantenimiento/dist>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+        
+        # Redirigir todas las solicitudes no encontradas al index.html para SPA routing
+        RewriteEngine On
+        RewriteBase /
+        RewriteRule ^index\.html$ - [L]
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule . /index.html [L]
+    </Directory>
+</VirtualHost> 

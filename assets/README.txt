@@ -1,0 +1,1 @@
+Coloca aquí el logo "nw_logo.png" para la generación adecuada del PDF.

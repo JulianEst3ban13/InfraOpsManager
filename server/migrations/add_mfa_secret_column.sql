@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN mfa_secret VARCHAR(64) NULL AFTER password; 
